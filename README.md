@@ -16,7 +16,7 @@ User can add several overlays to the video:
 # Requirements & Build :wrench: 
 - Cpp version c++17
 - Qt Version 5.15
-To be able to start this application on your computer, you should have installed `Linux Ubuntu` operating system. Required packages (Qt libraries) can be installed by running `installRequirements.sh` bash script. To be able to execute this script, you should give it executable permissions. This can be done with command:
+<br>To be able to start this application on your computer, you should have installed `Linux Ubuntu` operating system. Required packages (Qt libraries) can be installed by running `installRequirements.sh` bash script. To be able to execute this script, you should give it executable permissions. This can be done with command:
 ```
 chmod +x installRequirements.sh 
 ```
