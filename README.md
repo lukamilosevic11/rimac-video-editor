@@ -7,7 +7,7 @@ You can see example of this application here: https://www.youtube.com/watch?v=Mv
 <br>Time needed for finishing this assignment is 48 working hours.
 
 # What is this? :book:
-This is a `QtQuick` (Qt5/QML) application which is part of assignment for Softrepresents a small video editor for the `Linux Ubuntu` operating system.
+This is a `QtQuick` (Qt5/QML) application which is part of assignment for Softwer Engineer role at Rimac-automobili, represents a small video editor for the `Linux Ubuntu` operating system.
 User can add several overlays to the video:
 - Numerical value Text element 
 - Basic shape element with applied gradient
