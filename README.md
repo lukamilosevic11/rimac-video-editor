@@ -2,8 +2,7 @@
 
 ![VideoEditor](rimacVideoEditor.png)
 
-You can see example of this application here: https://www.youtube.com/watch?v=MvrHEwUIgR4
-Video stuttering when we use volume and seek features is present because of ScreenRecord app, if you run this app everything works smoothly. 
+You can see example of this application here: https://www.youtube.com/watch?v=MvrHEwUIgR4    Video stuttering when we use volume and seek features is present because of ScreenRecord app, if you run this app everything works smoothly. 
 Time needed for finishing this assignment is 48 working hours.
 
 # What is this? :book:
