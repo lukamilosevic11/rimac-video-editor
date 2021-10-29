@@ -3,6 +3,8 @@
 ![VideoEditor](rimacVideoEditor.png)
 
 You can see example of this application here: https://www.youtube.com/watch?v=MvrHEwUIgR4
+Video stuttering when we use volume and seek features is present because of ScreenRecord app, if you run this app everything works smoothly. 
+Time needed for finishing this assignment is 48 working hours.
 
 # What is this? :book:
 This is a `QtQuick` (Qt5/QML) application which which is part of assignment for Softrepresents a small video editor for the `Linux Ubuntu` operating system.
@@ -30,7 +32,17 @@ On each frame we are storing image which has one of overlays added. After that `
 ```
 ffmpeg -y -framerate 60 -i frameImagesPath -i audioPath -c copy -map 0:v? -map 1:a? -shortest output.mp4
 ```
-For connection between `c++` and `QML` is used `DataBridge` singleton which stores all settings parameters for each overlay and also some other helper functions. Main reason why is that class singleton is that because it's easier to request instance of that main object instead of sending that instance through constructor of other classes.
+For connection between `c++` and `QML` is used `DataBridge` singleton which stores all settings parameters for each overlay and also some other helper functions. Main reason why is that class singleton is that because it's easier to request instance of that main object instead of sending that instance through constructors of other classes.
+
+# Extra features added :gem: 
+- Added support for keyboard keys:
+    - seek video forward 5s `right`
+    - seek video back 5s `left`
+    - volume increase `up`
+    - volume decrease `down`
+    - play/pause video `space`
+    - close video `esc`
+-Added support for deleting edited videos
 
 # Improvements :rocket:
 - Should be considered creating video without using ffmpeg
