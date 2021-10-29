@@ -42,7 +42,8 @@ For connection between `c++` and `QML` is used `DataBridge` singleton which stor
     - volume decrease `down`
     - play/pause video `space`
     - close video `esc`
--Added support for deleting edited videos
+    
+- Added support for deleting edited videos
 
 # Improvements :rocket:
 - Should be considered creating video without using ffmpeg
