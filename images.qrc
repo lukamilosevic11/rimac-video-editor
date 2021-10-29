@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>assets/rimacNevera.png</file>
+        <file>assets/pause.png</file>
+        <file>assets/play.png</file>
+    </qresource>
+</RCC>

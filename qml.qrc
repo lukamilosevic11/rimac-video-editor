@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>editedVideosFolderChooseDialog.qml</file>
+        <file>editedVideosThumbnails.qml</file>
+        <file>rawVideosThumbnails.qml</file>
+        <file>rawVideosFolderChooseDialog.qml</file>
+        <file>rawVideoSettings.qml</file>
+        <file>rawVideoEditing.qml</file>
+    </qresource>
+</RCC>
