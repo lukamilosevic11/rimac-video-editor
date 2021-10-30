@@ -35,7 +35,7 @@ ffmpeg -y -framerate 60 -i frameImagesPath -i audioPath -c copy -map 0:v? -map 1
 For connection between `c++` and `QML` is used `DataBridge` singleton which stores all settings parameters for each overlay and also some other helper functions. Main reason why is that class singleton is that because it's easier to request instance of that main object instead of sending that instance through constructors of other classes.
 
 # Extra features added :gem: 
-- Added support for keyboard keys:
+- Added support for keyboard keys when we play video in full screen:
     - seek video forward 5s `right`
     - seek video back 5s `left`
     - volume increase `up`
